@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FABAD1121EC17A5100BF62CB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FABAD1111EC17A5100BF62CB /* main.m */; };
+		FABAD1151EC17A5100BF62CB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FABAD1141EC17A5100BF62CB /* AppDelegate.m */; };
+		FABAD1181EC17A5100BF62CB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FABAD1171EC17A5100BF62CB /* ViewController.m */; };
+		FABAD11B1EC17A5100BF62CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FABAD1191EC17A5100BF62CB /* Main.storyboard */; };
+		FABAD11D1EC17A5100BF62CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FABAD11C1EC17A5100BF62CB /* Assets.xcassets */; };
+		FABAD1201EC17A5100BF62CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FABAD11E1EC17A5100BF62CB /* LaunchScreen.storyboard */; };
+		FABAD12B1EC17A5100BF62CB /* KeyChainDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FABAD12A1EC17A5100BF62CB /* KeyChainDemoTests.m */; };
+		FABAD1361EC17A5100BF62CB /* KeyChainDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FABAD1351EC17A5100BF62CB /* KeyChainDemoUITests.m */; };
+		FABAD1451EC17A7700BF62CB /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FABAD1441EC17A7700BF62CB /* Security.framework */; };
+		FABAD1481EC17AB700BF62CB /* KeyChain.m in Sources */ = {isa = PBXBuildFile; fileRef = FABAD1471EC17AB700BF62CB /* KeyChain.m */; };
+		FABAD14D1EC1CCA100BF62CB /* AlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = FABAD14C1EC1CCA100BF62CB /* AlertController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FABAD1271EC17A5100BF62CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FABAD1051EC17A5100BF62CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FABAD10C1EC17A5100BF62CB;
+			remoteInfo = KeyChainDemo;
+		};
+		FABAD1321EC17A5100BF62CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FABAD1051EC17A5100BF62CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FABAD10C1EC17A5100BF62CB;
+			remoteInfo = KeyChainDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FABAD10D1EC17A5100BF62CB /* KeyChainDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KeyChainDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FABAD1111EC17A5100BF62CB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FABAD1131EC17A5100BF62CB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FABAD1141EC17A5100BF62CB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FABAD1161EC17A5100BF62CB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FABAD1171EC17A5100BF62CB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FABAD11A1EC17A5100BF62CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FABAD11C1EC17A5100BF62CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FABAD11F1EC17A5100BF62CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FABAD1211EC17A5100BF62CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FABAD1261EC17A5100BF62CB /* KeyChainDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KeyChainDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FABAD12A1EC17A5100BF62CB /* KeyChainDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeyChainDemoTests.m; sourceTree = "<group>"; };
+		FABAD12C1EC17A5100BF62CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FABAD1311EC17A5100BF62CB /* KeyChainDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KeyChainDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FABAD1351EC17A5100BF62CB /* KeyChainDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeyChainDemoUITests.m; sourceTree = "<group>"; };
+		FABAD1371EC17A5100BF62CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FABAD1441EC17A7700BF62CB /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		FABAD1461EC17AB700BF62CB /* KeyChain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyChain.h; sourceTree = "<group>"; };
+		FABAD1471EC17AB700BF62CB /* KeyChain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyChain.m; sourceTree = "<group>"; };
+		FABAD14B1EC1CCA100BF62CB /* AlertController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlertController.h; sourceTree = "<group>"; };
+		FABAD14C1EC1CCA100BF62CB /* AlertController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlertController.m; sourceTree = "<group>"; };
+		FABAD1501EC1E2B000BF62CB /* KeyChainDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = KeyChainDemo.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FABAD10A1EC17A5100BF62CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FABAD1451EC17A7700BF62CB /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FABAD1231EC17A5100BF62CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FABAD12E1EC17A5100BF62CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FABAD1041EC17A5100BF62CB = {
+			isa = PBXGroup;
+			children = (
+				FABAD10F1EC17A5100BF62CB /* KeyChainDemo */,
+				FABAD1291EC17A5100BF62CB /* KeyChainDemoTests */,
+				FABAD1341EC17A5100BF62CB /* KeyChainDemoUITests */,
+				FABAD10E1EC17A5100BF62CB /* Products */,
+				FABAD1431EC17A7700BF62CB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FABAD10E1EC17A5100BF62CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FABAD10D1EC17A5100BF62CB /* KeyChainDemo.app */,
+				FABAD1261EC17A5100BF62CB /* KeyChainDemoTests.xctest */,
+				FABAD1311EC17A5100BF62CB /* KeyChainDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FABAD10F1EC17A5100BF62CB /* KeyChainDemo */ = {
+			isa = PBXGroup;
+			children = (
+				FABAD1501EC1E2B000BF62CB /* KeyChainDemo.entitlements */,
+				FABAD1131EC17A5100BF62CB /* AppDelegate.h */,
+				FABAD1141EC17A5100BF62CB /* AppDelegate.m */,
+				FABAD1161EC17A5100BF62CB /* ViewController.h */,
+				FABAD1171EC17A5100BF62CB /* ViewController.m */,
+				FABAD1461EC17AB700BF62CB /* KeyChain.h */,
+				FABAD1471EC17AB700BF62CB /* KeyChain.m */,
+				FABAD14B1EC1CCA100BF62CB /* AlertController.h */,
+				FABAD14C1EC1CCA100BF62CB /* AlertController.m */,
+				FABAD1191EC17A5100BF62CB /* Main.storyboard */,
+				FABAD11C1EC17A5100BF62CB /* Assets.xcassets */,
+				FABAD11E1EC17A5100BF62CB /* LaunchScreen.storyboard */,
+				FABAD1211EC17A5100BF62CB /* Info.plist */,
+				FABAD1101EC17A5100BF62CB /* Supporting Files */,
+			);
+			path = KeyChainDemo;
+			sourceTree = "<group>";
+		};
+		FABAD1101EC17A5100BF62CB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FABAD1111EC17A5100BF62CB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FABAD1291EC17A5100BF62CB /* KeyChainDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				FABAD12A1EC17A5100BF62CB /* KeyChainDemoTests.m */,
+				FABAD12C1EC17A5100BF62CB /* Info.plist */,
+			);
+			path = KeyChainDemoTests;
+			sourceTree = "<group>";
+		};
+		FABAD1341EC17A5100BF62CB /* KeyChainDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FABAD1351EC17A5100BF62CB /* KeyChainDemoUITests.m */,
+				FABAD1371EC17A5100BF62CB /* Info.plist */,
+			);
+			path = KeyChainDemoUITests;
+			sourceTree = "<group>";
+		};
+		FABAD1431EC17A7700BF62CB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FABAD1441EC17A7700BF62CB /* Security.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FABAD10C1EC17A5100BF62CB /* KeyChainDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FABAD13A1EC17A5100BF62CB /* Build configuration list for PBXNativeTarget "KeyChainDemo" */;
+			buildPhases = (
+				FABAD1091EC17A5100BF62CB /* Sources */,
+				FABAD10A1EC17A5100BF62CB /* Frameworks */,
+				FABAD10B1EC17A5100BF62CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KeyChainDemo;
+			productName = KeyChainDemo;
+			productReference = FABAD10D1EC17A5100BF62CB /* KeyChainDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FABAD1251EC17A5100BF62CB /* KeyChainDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FABAD13D1EC17A5100BF62CB /* Build configuration list for PBXNativeTarget "KeyChainDemoTests" */;
+			buildPhases = (
+				FABAD1221EC17A5100BF62CB /* Sources */,
+				FABAD1231EC17A5100BF62CB /* Frameworks */,
+				FABAD1241EC17A5100BF62CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FABAD1281EC17A5100BF62CB /* PBXTargetDependency */,
+			);
+			name = KeyChainDemoTests;
+			productName = KeyChainDemoTests;
+			productReference = FABAD1261EC17A5100BF62CB /* KeyChainDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FABAD1301EC17A5100BF62CB /* KeyChainDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FABAD1401EC17A5100BF62CB /* Build configuration list for PBXNativeTarget "KeyChainDemoUITests" */;
+			buildPhases = (
+				FABAD12D1EC17A5100BF62CB /* Sources */,
+				FABAD12E1EC17A5100BF62CB /* Frameworks */,
+				FABAD12F1EC17A5100BF62CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FABAD1331EC17A5100BF62CB /* PBXTargetDependency */,
+			);
+			name = KeyChainDemoUITests;
+			productName = KeyChainDemoUITests;
+			productReference = FABAD1311EC17A5100BF62CB /* KeyChainDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FABAD1051EC17A5100BF62CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = shenzhenshihua;
+				TargetAttributes = {
+					FABAD10C1EC17A5100BF62CB = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = G4E6298X77;
+						ProvisioningStyle = Manual;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 0;
+							};
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
+					};
+					FABAD1251EC17A5100BF62CB = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = G4E6298X77;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FABAD10C1EC17A5100BF62CB;
+					};
+					FABAD1301EC17A5100BF62CB = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = G4E6298X77;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FABAD10C1EC17A5100BF62CB;
+					};
+				};
+			};
+			buildConfigurationList = FABAD1081EC17A5100BF62CB /* Build configuration list for PBXProject "KeyChainDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FABAD1041EC17A5100BF62CB;
+			productRefGroup = FABAD10E1EC17A5100BF62CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FABAD10C1EC17A5100BF62CB /* KeyChainDemo */,
+				FABAD1251EC17A5100BF62CB /* KeyChainDemoTests */,
+				FABAD1301EC17A5100BF62CB /* KeyChainDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FABAD10B1EC17A5100BF62CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FABAD1201EC17A5100BF62CB /* LaunchScreen.storyboard in Resources */,
+				FABAD11D1EC17A5100BF62CB /* Assets.xcassets in Resources */,
+				FABAD11B1EC17A5100BF62CB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FABAD1241EC17A5100BF62CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FABAD12F1EC17A5100BF62CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FABAD1091EC17A5100BF62CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FABAD1181EC17A5100BF62CB /* ViewController.m in Sources */,
+				FABAD1481EC17AB700BF62CB /* KeyChain.m in Sources */,
+				FABAD1151EC17A5100BF62CB /* AppDelegate.m in Sources */,
+				FABAD1121EC17A5100BF62CB /* main.m in Sources */,
+				FABAD14D1EC1CCA100BF62CB /* AlertController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FABAD1221EC17A5100BF62CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FABAD12B1EC17A5100BF62CB /* KeyChainDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FABAD12D1EC17A5100BF62CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FABAD1361EC17A5100BF62CB /* KeyChainDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FABAD1281EC17A5100BF62CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FABAD10C1EC17A5100BF62CB /* KeyChainDemo */;
+			targetProxy = FABAD1271EC17A5100BF62CB /* PBXContainerItemProxy */;
+		};
+		FABAD1331EC17A5100BF62CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FABAD10C1EC17A5100BF62CB /* KeyChainDemo */;
+			targetProxy = FABAD1321EC17A5100BF62CB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FABAD1191EC17A5100BF62CB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FABAD11A1EC17A5100BF62CB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FABAD11E1EC17A5100BF62CB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FABAD11F1EC17A5100BF62CB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FABAD1381EC17A5100BF62CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FABAD1391EC17A5100BF62CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FABAD13B1EC17A5100BF62CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = KeyChainDemo/KeyChainDemo.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = G4E6298X77;
+				INFOPLIST_FILE = KeyChainDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.miongpao.KeyChainDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "35293daf-5890-4d8b-bb4a-f3a9cfe07c20";
+				PROVISIONING_PROFILE_SPECIFIER = keyChainDemo;
+			};
+			name = Debug;
+		};
+		FABAD13C1EC17A5100BF62CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = KeyChainDemo/KeyChainDemo.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = G4E6298X77;
+				INFOPLIST_FILE = KeyChainDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.miongpao.KeyChainDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "35293daf-5890-4d8b-bb4a-f3a9cfe07c20";
+				PROVISIONING_PROFILE_SPECIFIER = keyChainDemo;
+			};
+			name = Release;
+		};
+		FABAD13E1EC17A5100BF62CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = G4E6298X77;
+				INFOPLIST_FILE = KeyChainDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SH.KeyChainDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KeyChainDemo.app/KeyChainDemo";
+			};
+			name = Debug;
+		};
+		FABAD13F1EC17A5100BF62CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = G4E6298X77;
+				INFOPLIST_FILE = KeyChainDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SH.KeyChainDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KeyChainDemo.app/KeyChainDemo";
+			};
+			name = Release;
+		};
+		FABAD1411EC17A5100BF62CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = G4E6298X77;
+				INFOPLIST_FILE = KeyChainDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SH.KeyChainDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KeyChainDemo;
+			};
+			name = Debug;
+		};
+		FABAD1421EC17A5100BF62CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = G4E6298X77;
+				INFOPLIST_FILE = KeyChainDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SH.KeyChainDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KeyChainDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FABAD1081EC17A5100BF62CB /* Build configuration list for PBXProject "KeyChainDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FABAD1381EC17A5100BF62CB /* Debug */,
+				FABAD1391EC17A5100BF62CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FABAD13A1EC17A5100BF62CB /* Build configuration list for PBXNativeTarget "KeyChainDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FABAD13B1EC17A5100BF62CB /* Debug */,
+				FABAD13C1EC17A5100BF62CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FABAD13D1EC17A5100BF62CB /* Build configuration list for PBXNativeTarget "KeyChainDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FABAD13E1EC17A5100BF62CB /* Debug */,
+				FABAD13F1EC17A5100BF62CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FABAD1401EC17A5100BF62CB /* Build configuration list for PBXNativeTarget "KeyChainDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FABAD1411EC17A5100BF62CB /* Debug */,
+				FABAD1421EC17A5100BF62CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FABAD1051EC17A5100BF62CB /* Project object */;
+}
